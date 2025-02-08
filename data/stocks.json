@@ -1,0 +1,92 @@
+[
+  {
+    "size": "2 cm x 2 cm",
+    "thickness": "1 mm",
+    "quantity": 60,
+    "notes": "",
+    "MaterialId": 2,
+    "BrandId": 2
+  },
+  {
+    "size": "2 cm x 4 cm",
+    "thickness": "1 mm",
+    "quantity": 40,
+    "notes": "",
+    "MaterialId": 2,
+    "BrandId": 2
+  },
+  {
+    "size": "unspecified",
+    "thickness": "",
+    "quantity": 20,
+    "notes": "",
+    "MaterialId": 35,
+    "BrandId": 1
+
+  },
+  {
+    "size": "2 cm x 2 cm",
+    "thickness": "1 mm",
+    "quantity": 40,
+    "notes": "",
+    "MaterialId": 3,
+    "BrandId": 2
+
+  },
+  {
+    "size": "2 cm x 4 cm",
+    "thickness": "1 mm",
+    "quantity": 30,
+    "notes": "",
+    "MaterialId": 3,
+    "BrandId": 2
+  },
+  {
+    "size": "2 cm x 2 cm",
+    "thickness": "1 mm",
+    "quantity": 200,
+    "notes": "",
+    "MaterialId": 1,
+    "BrandId": 3
+  },
+  {
+    "size": "2 cm x 4 cm",
+    "thickness": "1 mm",
+    "quantity": 100,
+    "notes": "",
+    "MaterialId": 1,
+    "BrandId": 3
+  },
+  {
+    "size": "1 in 1/2",
+    "thickness": "1 mm",
+    "quantity": 50,
+    "notes": "",
+    "MaterialId": 5,
+    "BrandId": 2
+  },
+  {
+    "size": "2 in",
+    "thickness": "1 mm",
+    "quantity": 20,
+    "notes": "",
+    "MaterialId": 5,
+    "BrandId": 2
+  },
+  {
+    "size": "1 in 1/2",
+    "thickness": "1 mm",
+    "quantity": 40,
+    "notes": "",
+    "MaterialId": 6,
+    "BrandId": 2
+  },
+  {
+    "size": "2 in",
+    "thickness": "1 mm",
+    "quantity": 20,
+    "notes": "",
+    "MaterialId": 6,
+    "BrandId": 2
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "measurement": "unspecified",
+    "SizeCategoryId": 1,
+    "orderIndex": 1
+  },
+  {
+    "measurement": "1.5 cm x 1.5 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 2
+  },
+  {
+    "measurement": "2 cm x 2 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 3
+  },
+  {
+    "measurement": "2 cm x 4 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 4
+  },
+  {
+    "measurement": "3 cm x 3 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 5
+  },
+  {
+    "measurement": "3 cm x 6 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 6
+  },
+  {
+    "measurement": "4 cm x 4 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 7
+  },
+  {
+    "measurement": "4 cm x 6 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 8
+  },
+  {
+    "measurement": "4 cm x 8 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 9
+  },
+  {
+    "measurement": "5 cm x 10 cm",
+    "SizeCategoryId": 2,
+    "orderIndex": 10
+  },
+  {
+    "measurement": "1/2 in",
+    "SizeCategoryId": 3,
+    "orderIndex": 11
+  },
+  {
+    "measurement": "3/4 in",
+    "SizeCategoryId": 3,
+    "orderIndex": 12
+  },
+  {
+    "measurement": "1 in",
+    "SizeCategoryId": 3,
+    "orderIndex": 13
+  },
+  {
+    "measurement": "1 in 1/4",
+    "SizeCategoryId": 3,
+    "orderIndex": 14
+  },
+  {
+    "measurement": "1 in 1/2",
+    "SizeCategoryId": 3,
+    "orderIndex": 15
+  },
+  {
+    "measurement": "1 in 3/4",
+    "SizeCategoryId": 3,
+    "orderIndex": 16
+  },
+  {
+    "measurement": "2 in",
+    "SizeCategoryId": 3,
+    "orderIndex": 17
+  },
+  {
+    "measurement": "2 in 1/2",
+    "SizeCategoryId": 3,
+    "orderIndex": 18
+  },
+  {
+    "measurement": "1.2 m x 2.4 m",
+    "SizeCategoryId": 4,
+    "orderIndex": 19
+  },
+  {
+    "measurement": "1.2 m x 3.0 m",
+    "SizeCategoryId": 4,
+    "orderIndex": 20
+  },
+  {
+    "measurement": "2 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 21
+  },
+  {
+    "measurement": "4 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 22
+  },
+  {
+    "measurement": "6 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 23
+  },
+  {
+    "measurement": "8 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 24
+  },
+  {
+    "measurement": "10 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 25
+  },
+  {
+    "measurement": "12 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 26
+  },
+  {
+    "measurement": "16 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 27
+  },
+  {
+    "measurement": "18 mm",
+    "SizeCategoryId": 5,
+    "orderIndex": 28
+  },
+  {
+    "measurement": "3 cm x 3 cm",
+    "SizeCategoryId": 6,
+    "orderIndex": 29
+  },
+  {
+    "measurement": "4 cm x 4 cm",
+    "SizeCategoryId": 6,
+    "orderIndex": 30
+  },
+  {
+    "measurement": "5 cm x 5 cm",
+    "SizeCategoryId": 6,
+    "orderIndex": 31
+  },
+  {
+    "measurement": "4 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 32
+  },
+  {
+    "measurement": "6 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 33
+  },
+  {
+    "measurement": "8 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 34
+  },
+  {
+    "measurement": "10 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 35
+  },
+  {
+    "measurement": "12 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 36
+  },
+  {
+    "measurement": "16 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 37
+  },
+  {
+    "measurement": "18 mm",
+    "SizeCategoryId": 7,
+    "orderIndex": 38
+  }
+]

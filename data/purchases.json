@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2020-03-01",
+    "notes": "Notes for Purchase",
+    "SupplierId": 1,
+    "DivisionId": 1,
+    "ReferenceId": 1,
+    "AdminId": 1
+  },
+  {
+    "date": "2020-03-01",
+    "notes": "Notes for Purchase",
+    "SupplierId": 2,
+    "DivisionId": 1,
+    "ReferenceId": 6,
+    "AdminId": 1
+  },
+  {
+    "date": "2020-03-01",
+    "notes": "Notes for Purchase",
+    "SupplierId": 3,
+    "DivisionId": 1,
+    "ReferenceId": 10,
+    "AdminId": 1
+  },
+  {
+    "date": "2020-03-04",
+    "notes": "Notes for Purchase",
+    "SupplierId": 1,
+    "DivisionId": 1,
+    "ReferenceId": 14,
+    "AdminId": 1
+  },
+  {
+    "date": "2020-03-04",
+    "notes": "Notes for Purchase",
+    "SupplierId": 3,
+    "DivisionId": 1,
+    "ReferenceId": 16,
+    "AdminId": 1
+  }
+]

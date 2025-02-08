@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Loan",
+    "date": "2020-03-01",
+    "value": 100.00,
+    "notes": "Notes for Internal Transaction",
+    "EmployeeId": 3,
+    "ReferenceId": 2,
+    "AdminId": 1
+  },
+  {
+    "title": "Loan repayment",
+    "date": "2020-03-04",
+    "value": 60.00,
+    "notes": "Notes for Internal Transaction",
+    "EmployeeId": 3,
+    "ReferenceId": 15,
+    "AdminId": 2
+  }
+]

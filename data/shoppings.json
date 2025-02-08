@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Not in Shopping",
+    "date": "",
+    "notes": "This is the default Shopping"
+  },
+  {
+    "title": "Shopping 1",
+    "date": "2020-03-01",
+    "notes": "Notes for Shopping 1"
+  },
+  {
+    "title": "Shopping 2",
+    "date": "2020-03-04",
+    "notes": "Notes for Shopping 2"
+  }
+]

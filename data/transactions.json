@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Purchase 1",
+    "date": "2020-03-01",
+    "ReferenceId": 1,
+    "AdminId": 1
+  },
+  {
+    "title": "Purchase 2",
+    "date": "2020-03-01",
+    "ReferenceId": 6,
+    "AdminId": 1
+  },
+  {
+    "title": "Purchase 3",
+    "date": "2020-03-01",
+    "ReferenceId": 10,
+    "AdminId": 1
+  },
+  {
+    "title": "Purchase 4",
+    "date": "2020-03-04",
+    "ReferenceId": 14,
+    "AdminId": 1
+  },
+  {
+    "title": "Purchase 5",
+    "date": "2020-03-04",
+    "ReferenceId": 16,
+    "AdminId": 1
+  }
+]

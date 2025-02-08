@@ -1,0 +1,50 @@
+[
+  {
+    "value": 1000.00,
+    "entry": "credit",
+    "AccountId": 5,
+    "TransactionId": 1,
+    "AdminId": 1,
+    "orderIndex": 1
+  },
+  {
+    "value": 1405.00,
+    "entry": "debit",
+    "AccountId": 16,
+    "TransactionId": 1,
+    "AdminId": 1,
+    "orderIndex": 2
+  },
+  {
+    "value": 405.00,
+    "entry": "debit",
+    "AccountId": 52,
+    "TransactionId": 1,
+    "AdminId": 1,
+    "orderIndex": 3
+  },
+  {
+    "value": 1000.00,
+    "entry": "credit",
+    "AccountId": 5,
+    "TransactionId": 4,
+    "AdminId": 1,
+    "orderIndex": 4
+  },
+  {
+    "value": 1405.00,
+    "entry": "debit",
+    "AccountId": 16,
+    "TransactionId": 4,
+    "AdminId": 1,
+    "orderIndex": 5
+  },
+  {
+    "value": 405.00,
+    "entry": "credit",
+    "AccountId": 52,
+    "TransactionId": 4,
+    "AdminId": 1,
+    "orderIndex": 6
+  }
+]

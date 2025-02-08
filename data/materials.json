@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Galvanized Square Pipe",
+    "SizeCategoryId": 2,
+    "BrandCategoryId": 3,
+    "orderIndex": 1
+  },
+  {
+    "name": "201 Stainless Steel Square Pipe",
+    "SizeCategoryId": 2,
+    "BrandCategoryId": 2,
+    "orderIndex": 2
+  },
+  {
+    "name": "304 Stainless Steel Square Pipe",
+    "SizeCategoryId": 2,
+    "BrandCategoryId": 2,
+    "orderIndex": 3
+  },
+  {
+    "name": "Galvanized Round Pipe",
+    "SizeCategoryId": 3,
+    "BrandCategoryId": 3,
+    "orderIndex": 4
+  },
+  {
+    "name": "201 Stainless Steel Round Pipe",
+    "SizeCategoryId": 3,
+    "BrandCategoryId": 2,
+    "orderIndex": 5
+  },
+  {
+    "name": "304 Stainless Steel Round Pipe",
+    "SizeCategoryId": 3,
+    "BrandCategoryId": 2,
+    "orderIndex": 6
+  },
+  {
+    "name": "Plain Steel Bar",
+    "SizeCategoryId": 5,
+    "BrandCategoryId": 5,
+    "orderIndex": 7
+  },
+  {
+    "name": "Ribbed Steel Bar",
+    "SizeCategoryId": 5,
+    "BrandCategoryId": 5,
+    "orderIndex": 8
+  },
+  {
+    "name": "Hammered Steel Bar",
+    "SizeCategoryId": 5,
+    "BrandCategoryId": 5,
+    "orderIndex": 9
+  },
+  {
+    "name": "Steel Plate",
+    "SizeCategoryId": 4,
+    "BrandCategoryId": 5,
+    "orderIndex": 10
+  },
+  {
+    "name": "201 Stainless Steel Plate",
+    "SizeCategoryId": 4,
+    "BrandCategoryId": 2,
+    "orderIndex": 11
+  },
+  {
+    "name": "304 Stainless Steel Plate",
+    "SizeCategoryId": 4,
+    "BrandCategoryId": 2,
+    "orderIndex": 12
+  },
+  {
+    "name": "Steel Rod",
+    "SizeCategoryId": 5,
+    "BrandCategoryId": 5,
+    "orderIndex": 13
+  },
+  {
+    "name": "201 Stainless Steel Rod",
+    "SizeCategoryId": 5,
+    "BrandCategoryId": 2,
+    "orderIndex": 14
+  },
+  {
+    "name": "304 Stainless Steel Rod",
+    "SizeCategoryId": 5,
+    "BrandCategoryId": 2,
+    "orderIndex": 15
+  },
+  {
+    "name": "Steel Angle Bar",
+    "SizeCategoryId": 6,
+    "BrandCategoryId": 5,
+    "orderIndex": 16
+  },
+  {
+    "name": "201 Stainless Steel Angle Bar",
+    "SizeCategoryId": 6,
+    "BrandCategoryId": 2,
+    "orderIndex": 17
+  },
+  {
+    "name": "304 Stainless Steel Angle Bar",
+    "SizeCategoryId": 6,
+    "BrandCategoryId": 2,
+    "orderIndex": 18
+  },
+  {
+    "name": "CNP Steel Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 5,
+    "orderIndex": 19
+  },
+  {
+    "name": "CNP 201 Stainless Steel Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 2,
+    "orderIndex": 20
+  },
+  {
+    "name": "CNP 304 Stainless Steel Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 2,
+    "orderIndex": 21
+  },
+  {
+    "name": "UNP Steel Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 5,
+    "orderIndex": 22
+  },
+  {
+    "name": "UNP 201 Stainless Steel Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 2,
+    "orderIndex": 23
+  },
+  {
+    "name": "UNP 304 Stainless Steel Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 2,
+    "orderIndex": 24
+  },
+  {
+    "name": "UNP Aluminium Bar",
+    "SizeCategoryId": 7,
+    "BrandCategoryId": 4,
+    "orderIndex": 25
+  },
+  {
+    "name": "Steel Welding Rod",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 5,
+    "orderIndex": 26
+  },
+  {
+    "name": "Stainless Steel Welding Rod",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 2,
+    "orderIndex": 27
+  },
+  {
+    "name": "Paint",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 28
+  },
+  {
+    "name": "Thinner",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 29
+  },
+  {
+    "name": "Brush",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 30
+  },
+  {
+    "name": "Sandpaper",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 31
+  },
+  {
+    "name": "Buffing Compound",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 32
+  },
+  {
+    "name": "Grinding Wheel",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 33
+  },
+  {
+    "name": "Drill Bits",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 34
+  },
+  {
+    "name": "Cutting Wheel",
+    "SizeCategoryId": 1,
+    "BrandCategoryId": 1,
+    "orderIndex": 35
+  }
+]

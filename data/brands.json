@@ -1,0 +1,27 @@
+[
+  {
+    "name": "unspecified",
+    "BrandCategoryId": 1,
+    "orderIndex": 1
+  },
+  {
+    "name": "unspecified",
+    "BrandCategoryId": 2,
+    "orderIndex": 2
+  },
+  {
+    "name": "unspecified",
+    "BrandCategoryId": 3,
+    "orderIndex": 3
+  },
+  {
+    "name": "unspecified",
+    "BrandCategoryId": 4,
+    "orderIndex": 4
+  },
+  {
+    "name": "unspecified",
+    "BrandCategoryId": 5,
+    "orderIndex": 5
+  }
+]

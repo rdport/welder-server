@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Phone bill",
+    "value": 50.00,
+    "notes": "Notes for General Transaction",
+    "DatebookId": 1,
+    "ReferenceId": 4,
+    "AdminId": 3,
+    "orderIndex": 1
+  },
+  {
+    "title": "Petrol",
+    "value": 15.00,
+    "notes": "Notes for General Transaction",
+    "DatebookId": 1,
+    "ReferenceId": 12,
+    "AdminId": 2,
+    "orderIndex": 2
+  },
+  {
+    "title": "Meals",
+    "value": 10.00,
+    "notes": "Notes for General Transaction",
+    "DatebookId": 1,
+    "ReferenceId": 13,
+    "AdminId": 2,
+    "orderIndex": 3
+  }
+]

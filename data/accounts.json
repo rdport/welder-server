@@ -1,0 +1,1076 @@
+[
+  {
+    "name": "Active Assets",
+    "code": "10000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Current Assets",
+    "code": "11000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Cash",
+    "code": "11100",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Banks",
+    "code": "11200",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Bank A",
+    "code": "11201",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Bank B",
+    "code": "11202",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Bank C",
+    "code": "11203",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Bank D",
+    "code": "11204",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Bank E",
+    "code": "11205",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Bank F",
+    "code": "11206",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Receivables",
+    "code": "11300",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Accounts Receivables",
+    "code": "11301",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Employee Receivables",
+    "code": "11302",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Allowance for Doubtful Accounts",
+    "code": "11303",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Material Inventory",
+    "code": "11400",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Material Inventory - Welding",
+    "code": "11401",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Material Inventory - Car Repair",
+    "code": "11402",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Auxiliary Material Inventory - Welding",
+    "code": "11403",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Auxiliary Material Inventory - Car Repair",
+    "code": "11404",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Work in Progress Inventory  - Welding",
+    "code": "11405",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Work in Progress Inventory - Car Repair",
+    "code": "11406",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Finished Goods Inventory - Welding",
+    "code": "11407",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Finished Goods Inventory - Car Repair",
+    "code": "11408",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Work In Progress (WIP)",
+    "code": "11500",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "WIP - Material Costs",
+    "code": "11501",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "WIP - Direct Labor Costs",
+    "code": "11502",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "WIP - Manufacturing Overhead Costs",
+    "code": "11503",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Advanced Payment",
+    "code": "11600",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Rent Paid in Advance",
+    "code": "11601",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Insurance Paid in Advance",
+    "code": "11602",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Purchase Down Payment",
+    "code": "11603",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Tax Paid in Advance",
+    "code": "11700",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "VAT Paid in Advance",
+    "code": "11701",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Income Tax Paid in Advance",
+    "code": "11702",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Accrued Revenues",
+    "code": "11800",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Interest Accrued Revenues",
+    "code": "11801",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Fixed Assets",
+    "code": "12000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Lands",
+    "code": "12100",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Buildings",
+    "code": "12200",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Workshop Inventory",
+    "code": "12300",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Office Inventory",
+    "code": "12400",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Vehicles",
+    "code": "12500",
+    "category": "Balance",
+    "normally": "debit"
+  },
+  {
+    "name": "Accumulated Depreciation - Buildings",
+    "code": "12201",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accumulated Depreciation - Workshop Inventory",
+    "code": "12301",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accumulated Depreciation - Office Inventory",
+    "code": "12401",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accumulated Depreciation - Vehicles",
+    "code": "12501",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Liabilities",
+    "code": "20000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Current Liabilities",
+    "code": "21000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Current Liabilities - Accounts Payable",
+    "code": "21100",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Current Liabilities - Credit Card",
+    "code": "21200",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Tax Liabilities",
+    "code": "21300",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Tax Liabilities - Input VAT",
+    "code": "21301",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Tax Liabilities - Output VAT",
+    "code": "21302",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Tax Liabilities - Income Tax",
+    "code": "21303",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Tax Liabilities - Property Tax",
+    "code": "21308",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Costs",
+    "code": "21400",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Accrued Salaries & Wages",
+    "code": "21401",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Sales Commissions",
+    "code": "21402",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Advertising Costs",
+    "code": "21403",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Utility Costs",
+    "code": "21404",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Rent Costs",
+    "code": "21405",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Insurance Costs",
+    "code": "21406",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Interest",
+    "code": "21407",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Accrued Penalty",
+    "code": "21408",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Other Accrued Costs",
+    "code": "21409",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales Down Payment",
+    "code": "21500",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Other Current Liabilities",
+    "code": "21600",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Dividend Liabilities",
+    "code": "21601",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Long-term Liabilities",
+    "code": "22000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Bank Loan",
+    "code": "22100",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Other Long-term Liabilities",
+    "code": "22200",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Equity",
+    "code": "30000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Initial Equity",
+    "code": "31000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Initial Equity A",
+    "code": "31100",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Initial Equity B",
+    "code": "31200",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Additional Equity",
+    "code": "32000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Additional Equity A",
+    "code": "32100",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Additional Equity B",
+    "code": "32200",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Drawing",
+    "code": "33000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Drawing A",
+    "code": "33100",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Drawing B",
+    "code": "33200",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Profit Balance",
+    "code": "34000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Retained Earnings",
+    "code": "34100",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Current Profit",
+    "code": "34200",
+    "category": "Balance",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales",
+    "code": "40000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Product Sales",
+    "code": "41000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Group A Product Sales",
+    "code": "41100",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales - Door",
+    "code": "41101",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Door Panel",
+    "code": "41102",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Door Frame",
+    "code": "41103",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Door Guard",
+    "code": "41104",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Window",
+    "code": "41105",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Window Panel",
+    "code": "41106",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Window Frame",
+    "code": "41107",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Window Guard",
+    "code": "41108",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Ventilation",
+    "code": "41109",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Ventilation Panel",
+    "code": "41110",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Ventilation Frame",
+    "code": "41111",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Ventilation Guard",
+    "code": "41112",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Partition",
+    "code": "41113",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Group B Product Sales",
+    "code": "41200",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales - Canopy",
+    "code": "41201",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Stairs",
+    "code": "41202",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Stair Railings",
+    "code": "41203",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Gate",
+    "code": "41204",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Folding Gate",
+    "code": "41205",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Garage",
+    "code": "41206",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Chimney",
+    "code": "41207",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Group C Product Sales",
+    "code": "41300",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales - Table",
+    "code": "41301",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Chair",
+    "code": "41302",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Cabinet",
+    "code": "41303",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Bed Frame",
+    "code": "41304",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Shelf",
+    "code": "41305",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Group D Product Sales",
+    "code": "41400",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales - Swing",
+    "code": "41401",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Pole/Post",
+    "code": "41402",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Barrier Post",
+    "code": "41403",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Electrical Post",
+    "code": "41404",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Flagpole",
+    "code": "41405",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Billboard",
+    "code": "41406",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Bridge",
+    "code": "41407",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Group E Product Sales",
+    "code": "41500",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales - Cars",
+    "code": "41501",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales of Services",
+    "code": "41600",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales - Repair Services",
+    "code": "41601",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales - Painting Services",
+    "code": "41602",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Other Sales",
+    "code": "41700",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Sales Return & Discount",
+    "code": "42000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales Return",
+    "code": "42100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Sales Discount",
+    "code": "42200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Cost of Sales",
+    "code": "50000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Cost of Materials",
+    "code": "51000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Biaya Angkut Pembelian Bahan",
+    "code": "52000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Biaya Tenaga Kerja Langsung",
+    "code": "53000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Manufacturing Overhead Costs (MOC)",
+    "code": "54000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "MOC - Auxiliary Materials",
+    "code": "54100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "MOC - Depreciation of Workshop Inventory",
+    "code": "54200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "MOC - Electricity",
+    "code": "54300",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "MOC - Applied",
+    "code": "54400",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "MOC - Actual",
+    "code": "54500",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Finished Goods",
+    "code": "55000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Cost of Sales - Welding",
+    "code": "55100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Cost of Sales - Car Repair",
+    "code": "55200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Operating Expenses",
+    "code": "60000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales Expenses",
+    "code": "61000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Sales Commissions",
+    "code": "61100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Sales Transport Expenses",
+    "code": "61200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Other Sales Expenses",
+    "code": "61300",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Marketing Expenses",
+    "code": "62000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Advertising Expenses",
+    "code": "62100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Marketing Transport Expenses",
+    "code": "62200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Other Marketing Expenses",
+    "code": "62300",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Utility Expenses",
+    "code": "63000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Electricity",
+    "code": "63100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Water",
+    "code": "63200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Phone",
+    "code": "63300",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Internet",
+    "code": "63400",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Other Utility Expenses",
+    "code": "63500",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "General & Administrative Expenses",
+    "code": "64000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Salary",
+    "code": "64100",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Allowances",
+    "code": "64200",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Rent Expenses",
+    "code": "64300",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Depreciation Expenses",
+    "code": "64400",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Depreciation Expenses - Buildings",
+    "code": "64401",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Depreciation Expenses - Office Inventory",
+    "code": "64402",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Depreciation Expenses - Vehicles",
+    "code": "64403",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Maintenance and Repair Expenses",
+    "code": "64500",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Loss of Accounts Receivable",
+    "code": "64600",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Other General & Administrative Expenses",
+    "code": "64700",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Non-operating Income",
+    "code": "70000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Bank Interest Income",
+    "code": "71000",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Profit on the Sale of a Fixed Asset",
+    "code": "72000",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Other Revenues",
+    "code": "73000",
+    "category": "Profit & Loss",
+    "normally": "credit"
+  },
+  {
+    "name": "Non-operating Expenses",
+    "code": "80000",
+    "category": "-",
+    "normally": "-"
+  },
+  {
+    "name": "Bank Interest Expenses",
+    "code": "81000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Bank Administration Expenses",
+    "code": "82000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Loss on Sales of Fixed Assets",
+    "code": "83000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  },
+  {
+    "name": "Corporate Income Tax",
+    "code": "84000",
+    "category": "Profit & Loss",
+    "normally": "debit"
+  }
+]

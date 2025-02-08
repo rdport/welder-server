@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Supplier1",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier1@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier2",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier2@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier3",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier3@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier4",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier4@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier5",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier5@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier6",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier6@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier7",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier7@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier8",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier8@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier9",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier9@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  },
+  {
+    "name": "Supplier10",
+    "address": "123 Street",
+    "city": "Toronto",
+    "phone": "123456789",
+    "email": "supplier10@mail.com",
+    "notes": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+  }
+]

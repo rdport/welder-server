@@ -1,0 +1,1368 @@
+# Please pay attention to the orderIndex and ReferenceId when sending PUT requests for some tables.
+# GET method is replaced with POST to avoid CORS issues from web browsers.
+
+################################## ADMIN ##################################
+POST http://localhost:5000/admins/login
+Content-Type: application/json
+
+{
+  "email": "peterrich@mail.com",
+  "password": "1234567"
+}
+
+###
+
+POST http://localhost:5000/admins/login
+Content-Type: application/json
+
+{
+  "email": "stevenrich@mail.com",
+  "password": "1234567"
+}
+
+###
+
+POST http://localhost:5000/admins/refresh-token
+
+###
+
+POST http://localhost:5000/admins/logout
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/admins/logout-all
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/admins
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/admins?key=name&term=steven%20rich&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/admins/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "residentId": "123456789000000",
+  "firstName": "John",
+  "lastName": "Rich",
+  "address": "123 Street",
+  "phone": "1234567890",
+  "email": "johnrich@mail.com",
+  "password": "1234567",
+  "class": "master"
+}
+
+###
+
+POST http://localhost:5000/admins/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/admins/4
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "residentId": "1234567890000008",
+  "firstName": "John",
+  "lastName": "Rich",
+  "address": "123 Street",
+  "phone": "1234567890",
+  "email": "johnrich@mail.com",
+  "password": "1234567",
+  "class": "master"
+}
+
+###
+
+DELETE http://localhost:5000/admins/<AdminId>
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## TOKEN ##################################
+POST http://localhost:5000/tokens
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+DELETE http://localhost:5000/tokens/<TokenId>
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## ACCOUNT ##################################
+POST http://localhost:5000/accounts
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/accounts?page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/accounts/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "Other Assets",
+  "code": "0000",
+  "category": "",
+  "normally": ""
+}
+
+###
+
+POST http://localhost:5000/accounts/180
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/accounts/180
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "Other Assets",
+  "code": "00001",
+  "category": "",
+  "normally": ""
+}
+
+###
+
+DELETE http://localhost:5000/accounts/180
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+################################## ACCOUNT TRANSACTION ##################################
+POST http://localhost:5000/account-transactions
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/account-transactions?key=transaction_date&term=2020-03-04&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/account-transactions/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "value": 1000.00,
+  "entry": "credit",
+  "AccountId": 5,
+  "TransactionId": 2
+}
+
+###
+
+POST http://localhost:5000/account-transactions/7
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/account-transactions/7
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "value": 1000.00,
+  "entry": "credit",
+  "AccountId": 2,
+  "TransactionId": 1,
+  "orderIndex": 7
+}
+
+###
+
+DELETE http://localhost:5000/account-transactions/7
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## ASSIGNMENT ##################################
+POST http://localhost:5000/assignments
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/assignments?key=employee_name&term=Eddy%20Eddy&idname=id&id=4&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/assignments/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "description": "This is description for Assignment",
+  "EmployeeId": 1,
+  "ProductOrderId": 1
+}
+
+###
+
+POST http://localhost:5000/assignments/7
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/assignments/7
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "description": "This is description  Assignment",
+  "EmployeeId": 1,
+  "ProductOrderId": 1
+}
+
+###
+
+DELETE http://localhost:5000/assignments/7
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## CUSTOMER ##################################
+POST http://localhost:5000/customers
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/customers?page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/customers/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "residentId": "",
+  "firstName": "Ken",
+  "lastName": "Doe",
+  "address": "123 Street",
+  "phone": "123456789",
+  "email": "kendoe@mail.com"
+}
+
+###
+
+POST http://localhost:5000/customers/51
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/customers/51
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "residentId": "123456789000000100",
+  "firstName": "Joh",
+  "lastName": "Doe",
+  "address": "123 Street",
+  "phone": "123456789",
+  "email": "johndoe@mai.com"
+}
+
+###
+
+DELETE http://localhost:5000/customers/51
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## DATEBOOK ##################################
+POST http://localhost:5000/datebooks
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/datebooks?key=date&year=2020&day=04&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/datebooks/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "date": "2020-05-03"
+}
+
+###
+
+POST http://localhost:5000/datebooks/62
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/datebooks/62
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "date": "2020-05-01"
+}
+
+###
+
+DELETE http://localhost:5000/datebooks/62
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## DIVISIONS ##################################
+POST http://localhost:5000/divisions
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/divisions?key=name&term=repair&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/divisions/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "A"
+}
+
+###
+
+POST http://localhost:5000/divisions/3
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/divisions/3
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "B"
+}
+
+###
+
+DELETE http://localhost:5000/divisions/3
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## EMPLOYEE ##################################
+POST http://localhost:5000/employees
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/employees?key=name&term=steven%20rich&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/employees/register
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "residentId": "",
+  "firstName": "Phillip",
+  "lastName": "Johnson",
+  "address": "",
+  "phone": "",
+  "email": "phillipjohnson@mail.com",
+  "position": "shareholder"
+}
+
+###
+
+POST http://localhost:5000/employees/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/employees/4
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "residentId": "",
+  "firstName": "Phillip",
+  "lastName": "Johnson",
+  "address": "",
+  "phone": "",
+  "email": "phillipjohnson@gmail.com",
+  "position": "welder"
+}
+
+###
+
+DELETE http://localhost:5000/employees/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## GENERAL TRANSACTION ##################################
+POST http://localhost:5000/general-transactions
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/general-transactions?key=datebook_date&term=2020-03&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/general-transactions/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Meals",
+  "date": "2020-03-01",
+  "value": 50.00,
+  "notes": "This is a description for General Transaction",
+  "DatebookId": 1
+  }
+
+###
+
+POST http://localhost:5000/general-transactions/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/general-transactions/4
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+//ReferenceId should be based on the value when it was created.
+{
+  "title": "Meals",
+  "date": "2020-03-01",
+  "value": 70.00,
+  "notes": "This is a description for General Transaction",
+  "reportStatus": "not reported",
+  "DatebookId": 1,
+  "orderIndex": 4,
+  "ReferenceId": 
+}
+
+###
+
+DELETE http://localhost:5000/general-transactions/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+
+################################## INTERNAL TRANSACTION ##################################
+POST http://localhost:5000/internal-transactions
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/internal-transactions?key=referenceCode&term=int20200301010001&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/internal-transactions/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Loan",
+  "date": "2020-03-01",
+  "value": 100.00,
+  "description": "This is a description for Internal Transaction",
+  "EmployeeId": 3
+}
+
+###
+
+POST http://localhost:5000/internal-transactions/3
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/internal-transactions/3
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//ReferenceId should be based on the value when it was created.
+{
+  "title": "Loan",
+  "date": "2020-03-01",
+  "value": 100.00,
+  "description": "This is a description for Internal Transaction",
+  "EmployeeId": 3,
+  "ReferenceId": 
+}
+
+###
+
+DELETE http://localhost:5000/internal-transactions/3
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+
+################################## MATERIAL ##################################
+POST http://localhost:5000/materials
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/materials?idname=id&id=13
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/materials/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "Pipa Kotak Galvani",
+  "SizeCategoryId": 2
+}
+
+###
+
+POST http://localhost:5000/materials/36
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/materials/36
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "name": "Pipa Kotak Galva",
+  "SizeCategoryId": 2,
+  "orderIndex": 36
+}
+
+###
+
+DELETE http://localhost:5000/materials/36
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## MATERIAL PURCHASE ##################################
+POST http://localhost:5000/material-purchases
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/material-purchases?key=material_name&term=cutting&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/material-purchases/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "size": "unspecified",
+  "correctedSize": "",
+  "thickness": "",
+  "correctedThickness": "",
+  "unitPrice": 2.00,
+  "quantity": 60,
+  "MaterialId": 33,
+  "BrandId": 1,
+  "PurchaseId": 1
+}
+
+###
+
+POST http://localhost:5000/material-purchases/16
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/material-purchases/16
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "size": "2 cm x 2 c",
+  "corrected_size": "2 cm x 2 cm",
+  "thickness": "1 mm",
+  "correctedThickness": "1 mm",
+  "unitPrice": 13.00,
+  "quantity": 60,
+  "MaterialId": 2,
+  "BrandId": 1,
+  "PurchaseId": 1,
+  "orderIndex": 16
+}
+
+###
+
+DELETE http://localhost:5000/material-purchases/16
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## ORDER ##################################
+POST http://localhost:5000/orders
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/orders?key=referenceCode&term=ORD20200301010001&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/orders/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "date": "2020-03-01",
+  "address": "123 Street",
+  "lat": -0.022325,
+  "lon": 109.336798,
+  "paymentType": "full",
+  "description": "This is a description for Order",
+  "CustomerId": 1
+}
+
+###
+
+POST http://localhost:5000/orders/5
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/orders/5
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//ReferenceId should be based on the value when it was created.
+{
+  "date": "2020-03-01",
+  "address": "123 Street",
+  "lat": -0.022325,
+  "lon": 109.336798,
+  "paymentType": "full",
+  "description": "This is a description for",
+  "CustomerId": 1,
+  "ReferenceId":
+}
+
+###
+
+DELETE http://localhost:5000/orders/5
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## PAYMENT ##################################
+POST http://localhost:5000/payments
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/payments?key=order_customer_name&term=Ju&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/payments/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Payment 1",
+  "date": "2020-03-01",
+  "paymentValue": 100.00,
+  "description": "This is a description for",
+  "OrderId": 1
+}
+
+###
+
+POST http://localhost:5000/payments/3
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/payments/3
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//ReferenceId should be based on the value when it was created.
+{
+  "title": "Payment 1",
+  "date": "2020-03-01",
+  "paymentValue": 100.00,
+  "description": "This is a description",
+  "OrderId": 1,
+  "ReferenceId":
+}
+
+###
+
+DELETE http://localhost:5000/payments/3
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## POSITION ##################################
+POST http://localhost:5000/positions
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/positions?key=name&term=wel&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/positions/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "test"
+}
+
+###
+
+POST http://localhost:5000/positions/6
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/positions/6
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "tes"
+}
+
+###
+
+DELETE http://localhost:5000/positions/6
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## PRODUCT ##################################
+POST http://localhost:5000/products
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/products?key=name&term=door&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/products/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "Box",
+  "description": ""
+}
+
+###
+
+POST http://localhost:5000/products/37
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/products/37
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "name": "Box",
+  "description": "This is a description for box.",
+  "orderIndex": 37
+}
+
+###
+
+DELETE http://localhost:5000/products/37
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## PRODUCT MATERIAL ##################################
+POST http://localhost:5000/product-materials
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/product-materials?key=shopping_title&term=shopping%201&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/product-materials/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "size": "2 cm",
+  "thickness": "1 mm",
+  "unitCost": 13.00,
+  "quantity": 15,
+  "ProductOrderId": 1,
+  "MaterialId": 2,
+  "BrandId": 1,
+  "OrderId": 3
+}
+
+###
+
+POST http://localhost:5000/product-materials/17
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/product-materials/17
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "size": "2 cm x 2 c",
+  "thickness": "1 mm",
+  "unitCost": 13.00,
+  "quantity": 15,
+  "ProductOrderId": 3,
+  "MaterialId": 2,
+  "OrderId": 1,
+  "BrandId": 1,
+  "ShoppingId": 1,
+  "orderIndex": 17
+}
+
+###
+
+DELETE http://localhost:5000/product-materials/17
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## PRODUCT ORDER ##################################
+POST http://localhost:5000/product-orders
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/product-orders?key=product_name&term=can&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/product-orders/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "surveyDate": "2020-03-06",
+  "startDate": "",
+  "endDate": "",
+  "quantity": 1,
+  "area": 10.5,
+  "unitPrice": 100.00,
+  "laborCost": 25.00,
+  "electricityCost": 5.00,
+  "otherCost": 5.00,
+  "commissionRate": 0.1,
+  "productionStatus": "calculated",
+  "ProductId": 17,
+  "OrderId": 2
+}
+
+###
+
+PUT http://localhost:5000/product-orders/10
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "surveyDate": "2020-03-07",
+  "startDate": "",
+  "endDate": "",
+  "quantity": 1,
+  "area": 10.5,
+  "unitPrice": 100.00,
+  "laborCost": 25.00,
+  "electricityCost": 5.00,
+  "otherCost": 5.00,
+  "commissionRate": 0.1,
+  "productionStatus": "calculated",
+  "ProductId": 17,
+  "OrderId": 2,
+  "orderIndex": 10
+}
+
+###
+
+POST http://localhost:5000/product-orders/10
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+DELETE http://localhost:5000/product-orders/10
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## PURCHASE ##################################
+POST http://localhost:5000/purchases
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/purchases?key=referenceCode&term=PUR20200304010001&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/purchases/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "date": "2020-03-10",
+  "description": "This is a description for Purchase",
+  "SupplierId": 1,
+  "DivisionId": 1
+}
+
+###
+
+POST http://localhost:5000/purchases/6
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/purchases/6
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//ReferenceId should be based on the value when it was created.
+{
+  "date": "2020-03-10",
+  "description": "This is a description for",
+  "SupplierId": 1,
+  "DivisionId": 1,
+  "ReferenceId":
+}
+
+###
+
+DELETE http://localhost:5000/purchases/6
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## REFERENCE ##################################
+POST http://localhost:5000/references
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/references?key=code&term=PUr&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/references/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "code": "PUR20200304010003",
+  "category": "purchase",
+  "date": "2020-03-05"
+}
+
+###
+
+POST http://localhost:5000/references/17
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/references/17
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "code": "PUR20200305010001",
+  "category": "purchase",
+  "date": "2020-03-05",
+  "relatedId": 5
+}
+
+###
+
+DELETE http://localhost:5000/references/17
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## SHOPPING ##################################
+POST http://localhost:5000/shoppings
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/shoppings?key=title&term=Shopping%202&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/shoppings/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Shopping List 100",
+  "date": "2020-03-01",
+  "description": "This is description for Shopping List"
+}
+
+###
+
+POST http://localhost:5000/shoppings/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/shoppings/4
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Shopping List 1000",
+  "date": "2020-03-01",
+  "description": "This is description for Shopping List"
+}
+
+###
+
+DELETE http://localhost:5000/shoppings/4
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## SIZE CATEGORY ##################################
+POST http://localhost:5000/size-categories
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/size-categories?key=category&term=Un&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/size-categories/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "category": "ed"
+}
+
+###
+
+POST http://localhost:5000/size-categories/8
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/size-categories/8
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "category": "edd"
+}
+
+###
+
+DELETE http://localhost:5000/size-categories/8
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## SIZE ##################################
+POST http://localhost:5000/sizes
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/sizes/options
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/sizes?key=size-category_category&term=uns&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/sizes/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "measurement": "unspecifi",
+  "SizeCategoryId": 1
+}
+
+###
+
+POST http://localhost:5000/sizes/39
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/sizes/39
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+//orderIndex should not be edited manually, it is used for drag and drop feature, its initial value equals to the id.
+{
+  "measurement": "unspecifie",
+  "SizeCategoryId": 1,
+  "orderIndex": 39
+}
+
+###
+
+DELETE http://localhost:5000/sizes/39
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## STOCK ##################################
+POST http://localhost:5000/stocks
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/stocks?key=material_name&term=galvan&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/stocks/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "size": "2 cm x 2 cm",
+  "thickness": "0.8 mm",
+  "quantity": 50,
+  "notes": "",
+  "BrandId": 2,
+  "MaterialId": 2
+}
+
+###
+
+POST http://localhost:5000/stocks/12
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/stocks/12
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "size": "2 cm x 2 cm",
+  "thickness": "0.8 mm",
+  "quantity": 40,
+  "notes": "",
+  "BrandId": 2,
+  "MaterialId": 2
+}
+
+###
+
+DELETE http://localhost:5000/stocks/12
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## STOCK EMPLOYEE ##################################
+POST http://localhost:5000/stock-employees
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/stock-employees?key=employee_name&term=ed&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/stock-employees/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "date": "2020-03-04",
+  "quantity": 30,
+  "notes": "",
+  "StockId": 2,
+  "EmployeeId": 3
+}
+
+###
+
+POST http://localhost:5000/stock-employees/2
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/stock-employees/2
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "date": "2020-03-04",
+  "quantity": 20,
+  "notes": "",
+  "StockId": 2,
+  "EmployeeId": 3
+}
+
+###
+
+DELETE http://localhost:5000/stock-employees/2
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## SUPPLIER ##################################
+POST http://localhost:5000/suppliers
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/suppliers?key=name&term=SUpplier5&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/suppliers/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "Supplier100",
+  "address": "123 Street",
+  "city": "Toronto",
+  "phone": "123456789",
+  "email": "supplier100@mail.com",
+  "description": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+}
+
+###
+
+POST http://localhost:5000/suppliers/11
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/suppliers/11
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "name": "Supplier1000",
+  "address": "123 Street",
+  "city": "Toronto",
+  "phone": "123456789",
+  "email": "supplier1000@mail.com",
+  "description": "Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne."
+}
+
+###
+
+DELETE http://localhost:5000/suppliers/11
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+
+
+################################## TRANSACTION ##################################
+POST http://localhost:5000/transactions
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+###
+
+POST http://localhost:5000/transactions?key=referenceCode&term=PUR20200301010001&page=1&limit=20
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+POST http://localhost:5000/transactions/register
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Purchase 5",
+  "date": "2020-03-04",
+  "ReferenceId": 6
+}
+
+###
+
+POST http://localhost:5000/transactions/7
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+###
+
+PUT http://localhost:5000/transactions/7
+Content-Type: application/json
+access_token: <access_token found in API response from POST request to /admins/login endpoint>
+
+{
+  "title": "Pembelian5",
+  "date": "2020-03-04",
+  "ReferenceId": 5
+}
+
+###
+
+DELETE http://localhost:5000/transactions/7
+access_token: <access_token found in API response from POST request to /admins/login endpoint>

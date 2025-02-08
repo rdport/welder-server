@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2020-03-01",
+    "address": "123 Street",
+    "lat": -0.022325,
+    "lon": 109.336798,
+    "paymentType": "full",
+    "notes": "Notes for Order",
+    "CustomerId": 1,
+    "ReferenceId": 3,
+    "AdminId": 2
+  },
+  {
+    "date": "2020-03-01",
+    "address": "123 Street",
+    "lat": -0.033311,
+    "lon": 109.324953,
+    "paymentType": "full",
+    "notes": "Notes for Order",
+    "CustomerId": 4,
+    "ReferenceId": 5,
+    "AdminId": 1
+  },
+  {
+    "date": "2020-03-01",
+    "address": "123 Street",
+    "lat": -0.029036,
+    "lon": 109.345923,
+    "paymentType": "installment",
+    "notes": "Notes for Order",
+    "CustomerId": 5,
+    "ReferenceId": 7,
+    "AdminId": 3
+  },
+  {
+    "date": "2020-03-01",
+    "address": "123 Street",
+    "lat": -0.037434,
+    "lon": 109.323816,
+    "paymentType": "installment",
+    "notes": "Notes for Order",
+    "CustomerId": 2,
+    "ReferenceId": 9,
+    "AdminId": 2
+  }
+]

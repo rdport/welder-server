@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2020-03-04",
+    "quantity": 10,
+    "notes": "",
+    "StockId": 1,
+    "EmployeeId": 3,
+    "AdminId": 1
+  }
+]

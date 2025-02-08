@@ -1,0 +1,32 @@
+[
+  {
+    "residentId": "1234567890000001",
+    "firstName": "Peter",
+    "lastName": "Rich",
+    "address": "123 Street",
+    "phone": "1234567890",
+    "email": "peterrich@mail.com",
+    "password": "1234567",
+    "class": "master"
+  },
+  {
+    "residentId": "1234567890000002",
+    "firstName": "Steven",
+    "lastName": "Rich",
+    "address": "123 Street",
+    "phone": "1234567890",
+    "email": "stevenrich@mail.com",
+    "password": "1234567",
+    "class": "master"
+  },
+  {
+    "residentId": "1234567890000003",
+    "firstName": "Eddy",
+    "lastName": "",
+    "address": "123 Street",
+    "phone": "1234567890",
+    "email": "eddy@mail.com",
+    "password": "1234567",
+    "class": "standard"
+  }
+]

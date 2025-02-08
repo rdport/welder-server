@@ -1,0 +1,29 @@
+[
+  {
+    "residentId": "",
+    "firstName": "Peter",
+    "lastName": "Rich",
+    "address": "",
+    "phone": "",
+    "email": "peterrich@mail.com",
+    "position": "shareholder"
+  },
+  {
+    "residentId": "",
+    "firstName": "Steven",
+    "lastName": "Rich",
+    "address": "",
+    "phone": "",
+    "email": "stevenrich@mail.com",
+    "position": "shareholder"
+  },
+  {
+    "residentId": "",
+    "firstName": "Eddy",
+    "lastName": "",
+    "address": "",
+    "phone": "",
+    "email": "eddy@mail.com",
+    "position": "welder"
+  }
+]

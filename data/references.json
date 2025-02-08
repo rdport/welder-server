@@ -1,0 +1,98 @@
+[
+  {
+    "code": "PUR20200301010001",
+    "category": "purchase",
+    "date": "2020-03-01",
+    "relatedId": 1
+  },
+  {
+    "code": "INT20200301010001",
+    "category": "internal-transaction",
+    "date": "2020-03-01",
+    "relatedId": 1
+  },
+  {
+    "code": "ORD20200301010001",
+    "category": "order",
+    "date": "2020-03-01",
+    "relatedId": 1
+  },
+  {
+    "code": "GEN20200301010001",
+    "category": "general-transaction",
+    "date": "2020-03-01",
+    "relatedId": 1
+  },
+  {
+    "code": "ORD20200301010002",
+    "category": "order",
+    "date": "2020-03-01",
+    "relatedId": 2
+  },
+  {
+    "code": "PUR20200301010002",
+    "category": "purchase",
+    "date": "2020-03-01",
+    "relatedId": 2
+  },
+  {
+    "code": "ORD20200301010003",
+    "category": "order",
+    "date": "2020-03-01",
+    "relatedId": 3
+  },
+  {
+    "code": "PAY20200301010001",
+    "category": "payment",
+    "date": "2020-03-01",
+    "relatedId": 1
+  },
+  {
+    "code": "ORD20200301010004",
+    "category": "order",
+    "date": "2020-03-01",
+    "relatedId": 4
+  },
+  {
+    "code": "PUR20200301010003",
+    "category": "purchase",
+    "date": "2020-03-01",
+    "relatedId": 3
+  },
+  {
+    "code": "PAY20200301010002",
+    "category": "payment",
+    "date": "2020-03-01",
+    "relatedId": 2
+  },
+  {
+    "code": "GEN20200301010002",
+    "category": "general-transaction",
+    "date": "2020-03-01",
+    "relatedId": 2
+  },
+  {
+    "code": "GEN20200301010003",
+    "category": "general-transaction",
+    "date": "2020-03-01",
+    "relatedId": 3
+  },
+  {
+    "code": "PUR20200304010001",
+    "category": "purchase",
+    "date": "2020-03-04",
+    "relatedId": 4
+  },
+  {
+    "code": "INT20200304010001",
+    "category": "internal-transaction",
+    "date": "2020-03-04",
+    "relatedId": 2
+  },
+  {
+    "code": "PUR20200304010002",
+    "category": "purchase",
+    "date": "2020-03-04",
+    "relatedId": 5
+  }
+]

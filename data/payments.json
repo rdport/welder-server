@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Payment 1",
+    "date": "2020-03-01",
+    "paymentValue": 100.00,
+    "notes": "Notes for Payment",
+    "OrderId": 1,
+    "ReferenceId": 8,
+    "AdminId": 1
+  },
+  {
+    "title": "Payment 2",
+    "date": "2020-03-01",
+    "paymentValue": 200.00,
+    "notes": "Notes for Payment",
+    "OrderId": 3,
+    "ReferenceId": 11,
+    "AdminId": 2
+  }
+]
