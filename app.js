@@ -5,7 +5,7 @@ if (process.env.NODE_ENV !== 'production') {
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const errorHandler = require('./middlewares/errorHandler');
+const errorHandler = require('./middlewares/errorhandler.js');
 const routes = require('./routes');
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
