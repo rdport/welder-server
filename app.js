@@ -11,7 +11,7 @@ const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
 
 app.use(helmet());
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: 'https://welder-client-rdport.onrender.com', credentials: true }));
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
