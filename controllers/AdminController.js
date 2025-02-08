@@ -148,9 +148,11 @@ class AdminController {
         }
       });
       res.cookie('refreshToken', refreshToken, {
-        MaxAge: +process.env.REFRESH_TOKEN_EXPIRY_MILLISECONDS,
+        expires: new Date(Date.now() + +process.env.REFRESH_TOKEN_EXPIRY_MILLISECONDS),
         httpOnly: true,
-        secure: false
+        secure: true,
+        sameSite: 'none',
+        priority: 'high'
       });
       res.status(200).json({
         accessToken, id: data.id, class: data.class, fullName: data.fullName
@@ -211,9 +213,11 @@ class AdminController {
         }
       });
       res.cookie('refreshToken', newRefreshToken, {
-        MaxAge: +process.env.REFRESH_TOKEN_EXPIRY_MILLISECONDS,
+        expires: new Date(Date.now() + +process.env.REFRESH_TOKEN_EXPIRY_MILLISECONDS),
         httpOnly: true,
-        secure: false
+        secure: true,
+        sameSite: 'none',
+        priority: 'high'
       });
       res.status(200).json({ accessToken, id, class: adminClass, fullName });
     } catch (err) {
@@ -239,7 +243,9 @@ class AdminController {
       res.cookie('refreshToken', '', {
         expires: new Date(0),
         httpOnly: true,
-        secure: false
+        secure: true,
+        sameSite: 'none',
+        priority: 'high'
       });
       res.status(200).json({ message: 'You have been signed out' });
     } catch (err) {
@@ -261,7 +267,9 @@ class AdminController {
       res.cookie('refreshToken', '', {
         expires: new Date(0),
         httpOnly: true,
-        secure: false
+        secure: true,
+        sameSite: 'none',
+        priority: 'high'
       });
       res.status(200).json({ message: 'You have been signed out on all devices' });
     } catch (err) {
