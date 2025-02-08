@@ -11,7 +11,6 @@ module.exports = async (req, res, next) => {
       }
     });
     if (!accessToken || !data) {
-      console.log('<<<<1')
       throw {
         status: 401,
         message: "Unauthorized Access!"

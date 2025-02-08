@@ -1,7 +1,6 @@
 const formatFirstLetterUpperCase = require('../helpers/formatFirstLetterUpperCase');
 
 function errorHandler(err, req, res, next) {
-  console.log(err)
   if (err.status) {
     res.status(err.status).json({ message: err.message });
   } else if (err.name === 'SequelizeValidationError' || err.name === 'SequelizeUniqueConstraintError') {
@@ -232,10 +231,8 @@ function errorHandler(err, req, res, next) {
       }
     }
     res.status(400).json({ message: errors });
-    console.log(errors)
   } else if (err.name === "SequelizeDatabaseError") {
     res.status(400).json({ message: formatFirstLetterUpperCase(err.message, ' ',) });
-    console.log(formatFirstLetterUpperCase(err.message, ' '), "<<<<<<<")
   } else if (err.name === "SequelizeForeignKeyConstraintError") {
     res.status(400).json({ message: 'Foreign Key Constraint Error_' + err.parent.detail });
   } else if (err.name === "TokenExpiredError") {

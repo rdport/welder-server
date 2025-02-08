@@ -157,15 +157,6 @@ class MaterialPurchaseController {
           orderIndex: formatNumberInput(req.body.orderIndex),
           AdminId: req.loggedInUser.id
         };
-        console.log(updatedMaterialPurchase, '<<<<<<<<<<<<<<<<<<<<<');
-        console.log({
-          prevMaterialId,
-          prevBrandId,
-          prevSize,
-          prevThickness,
-          prevQuantity
-        })
-
         if (prevMaterialValue !== currentMaterialValue) {
           const queryObj = {
             query: purchaseValueQuery,
